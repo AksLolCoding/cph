@@ -22,7 +22,7 @@ jobs:
                   node-version: ${{ matrix.node-version }}
             - run: npm install
             - run: npm install -g eslint
-            - run: npm run lint
+            - run: npm run lint --fix
 # For help, see
 #See also https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
